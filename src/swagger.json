@@ -79,20 +79,7 @@
             }
           },
           "400": {
-            "description": "Email já está sendo utilizado.",
-            "content": {
-              "application/json": {
-                "schema": {
-                  "type": "object",
-                  "properties": {
-                    "error": "string"
-                  },
-                  "example": {
-                    "error": "User already exists."
-                  }
-                }
-              }
-            }
+            "description": "Email já está sendo utilizado."
           }
         }
       },
@@ -166,20 +153,7 @@
             }
           },
           "400": {
-            "description": "Usuário sem permissão ou Usuário não encontrado.",
-            "content": {
-              "application/json": {
-                "schema": {
-                  "type": "object",
-                  "properties": {
-                    "error": "string"
-                  },
-                  "example": {
-                    "error": "Only admins can access the list."
-                  }
-                }
-              }
-            }
+            "description": "Usuário sem permissão ou Usuário não encontrado."
           }
         }
       }
@@ -241,20 +215,7 @@
             }
           },
           "404": {
-            "description": "Usuário não encontrado.",
-            "content": {
-              "application/json": {
-                "schema": {
-                  "type": "object",
-                  "properties": {
-                    "error": "string"
-                  },
-                  "example": {
-                    "error": "User not found"
-                  }
-                }
-              }
-            }
+            "description": "Usuário não encontrado."
           }
         }
       }
@@ -316,20 +277,7 @@
             }
           },
           "404": {
-            "description": "Usuário não encontrado.",
-            "content": {
-              "application/json": {
-                "schema": {
-                  "type": "object",
-                  "properties": {
-                    "error": "string"
-                  },
-                  "example": {
-                    "error": "User not found"
-                  }
-                }
-              }
-            }
+            "description": "Usuário não encontrado."
           }
         }
       }
